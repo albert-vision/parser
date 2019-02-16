@@ -1,0 +1,31 @@
+{
+    "language": "java",
+    "classes": [
+        {
+            "name": "Hotel",
+            "properties": [
+                {
+                    "name": "name",
+                    "type": "String"
+                },
+                {
+                    "name": "rooms",
+                    "type": "Room[]"
+                }
+            ]
+        },
+        {
+            "name": "Room",
+            "properties": [
+                {
+                    "name": "size",
+                    "type": "Float"
+                },
+                {
+                    "name": "price",
+                    "type": "Float"
+                }
+            ]
+        }
+    ]
+}

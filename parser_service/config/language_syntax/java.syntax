@@ -1,0 +1,18 @@
+.java
+<class_identifier> class <class_name>{
+field
+    <field_identifier> <field_type> <field_name>;
+end
+
+field
+    <field_type> get_<field_name> () {
+        return this.<field_name>
+    }
+end
+
+field
+    void set_<field_name> (<field_type> <field_name>) {
+        this.<field_name> = <field_name>
+    }
+end
+}

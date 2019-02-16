@@ -1,0 +1,18 @@
+public class Room{
+    private Float size;
+    private Float price;
+
+    Float get_size () {
+        return this.size
+    }
+    Float get_price () {
+        return this.price
+    }
+
+    void set_size (Float size) {
+        this.size = size
+    }
+    void set_price (Float price) {
+        this.price = price
+    }
+}
